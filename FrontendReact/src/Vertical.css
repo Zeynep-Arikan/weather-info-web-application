@@ -1,0 +1,113 @@
+.main{
+    display: flex;
+}
+.card {
+    background: #ffffff87;
+    padding: 2rem;
+    border-radius: 15px;
+    margin-bottom: 1rem;
+    width: 40vh;
+    height: 90%;
+    
+}
+.veriler {
+    display: flex;
+    justify-content: space-between; /* Verileri sağ tarafa yaslar */
+    align-items: flex-start; /* Verileri yukarıya hizalar */
+    width: 700px;
+  }
+  
+  .header-data {
+   
+    border-radius: 10px;
+    padding: 1rem; /* İçeriği rahatlatmak için boşluk ekler */
+    margin-left: 1rem; /* Sağ taraftan boşluk bırakır */
+    color:black;
+    
+  }
+  .weather-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: background-image 0.5s;
+  }
+  
+  .cloudy-background  {
+    background-image: url('cloudy.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+  }
+  
+  .sunny-background {
+    background-image: url('sunny.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+  }
+  .orta-background{
+    background-image: url('orta.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+  }
+  .yagmur-background{
+    background-image: url('yagmur.jpg') ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+  }
+  .gokgurultusu-background{
+    background-image: url('gokgurultusu.jpg') ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    opacity: 1;
+  }
+  .ortagunes-background{
+    background-image: url('ortagunes.jpg') ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+  }
+  .parcalibulut-background{
+    background-image: url('parcalibulut.jpg') ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+  }
+  .acik-background{
+    background-image: url('acik.jpg') ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+  }
+  .ortaruzgarli-background{
+    background-image: url('ortaruzgarli.jpg') ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+  }
+
+
+  .p-dropdown-trigger {
+    width: 2rem;
+  }
+  .p-card {
+    background: #ffffff21;
+    color: #495057;
+    box-shadow: 0 2px 1px -1px rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12);
+    border-radius: 6px;
+  }
